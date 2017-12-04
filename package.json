@@ -1,0 +1,31 @@
+{
+  "name": "puckback",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wroth08/puckback.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wroth08/puckback/issues"
+  },
+  "homepage": "https://github.com/wroth08/puckback#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "dotenv": "^4.0.0",
+    "express": "^4.16.2",
+    "http": "0.0.0",
+    "knex": "^0.14.2",
+    "morgan": "^1.9.0",
+    "node-fetch": "^1.7.3",
+    "pg": "^7.4.0"
+  }
+}
