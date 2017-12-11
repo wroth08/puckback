@@ -13,6 +13,7 @@ app.use(morgan('dev'))
 app.use(cors({origin: true}))
 
 app.use('/users', require('./routes/user'));
+app.use('/teams', require('./routes/teams'))
 
 app.use(notFound)
 app.use(errorHandler)
