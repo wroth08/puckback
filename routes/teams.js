@@ -22,3 +22,11 @@ router.post('/', (req, res) => {
             res.status(200).send('ok')
         })
 })
+
+router.get('/', (req, res) => {
+    knex('teams')
+        .select('*')
+        .then( (data) => {
+            res.json(data)
+        })
+})
